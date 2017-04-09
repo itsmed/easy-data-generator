@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/itsmed/easy-data-generator/issues"
   },
-  "homepage": "https://github.com/itsmed/easy-data-generator#readme"
+  "homepage": "https://github.com/itsmed/easy-data-generator#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0"
+  }
 }
