@@ -1,0 +1,19 @@
+{
+  "name": "easy-data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/itsmed/easy-data-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmed/easy-data-generator/issues"
+  },
+  "homepage": "https://github.com/itsmed/easy-data-generator#readme"
+}
