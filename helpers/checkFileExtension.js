@@ -8,4 +8,5 @@ module.exports = function checkFileExtension(filePath) {
     errorMessage('Only plain text file extensions are supported', '.txt', '.' + extension);
     return false;
   }
+  return true;
 }

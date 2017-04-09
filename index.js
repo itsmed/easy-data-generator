@@ -33,14 +33,6 @@ function dataGenerator(args) {
       console.log(i, input[i], Array.isArray(input));
     }    
   });
-  // console.log('file', filePath);
-  // fs.readFileSync(filePath, (err, data) => {
-  //   if (err) {
-  //     console.warn(err);
-  //   }
-  //   console.log('data: ', data.toString());
-  //   input += data.toString();
-  // });
 }
 
 if (process.env.NODE_ENV === 'test') {
