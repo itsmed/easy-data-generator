@@ -1,5 +1,7 @@
 module.exports = {
-  lorem: require('./lorem'),
   firstName: require('./firstName'),
-  lastName: require('./lastName')
+  fullName: require('./fullName'),
+  lastName: require('./lastName'),
+  lorem: require('./lorem'),
+  randInt: require('./randInt')
 }
