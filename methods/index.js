@@ -3,5 +3,6 @@ module.exports = {
   fullName: require('./fullName'),
   lastName: require('./lastName'),
   lorem: require('./lorem'),
-  randInt: require('./randInt')
+  range: require('./range'),
+  randInt: require('./randInt'),
 }
