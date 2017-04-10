@@ -20,7 +20,9 @@ describe('Helper Function: checkFileExtension', () => {
   });
 
   describe('passing a file other than a .txt', () => {
-    let spy = sinon.spy(console, 'log');
+    let spy;
+    beforeEach(() => spy = sinon.spy(console, 'log'));
+    afterEach(() => console.log.restore());
 
     it('should call errorMessage when passed a file that does not have a .txt extension and return false', () => {
       expect(checkFileExtension('fake.js')).to.equal(false);

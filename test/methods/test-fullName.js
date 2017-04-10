@@ -1,4 +1,3 @@
-const sinon = require('sinon');
 const { expect } = require('chai');
 
 const { firstNames, lastNames } = require('../../helpers/names');
