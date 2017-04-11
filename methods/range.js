@@ -7,12 +7,12 @@ module.exports = function range(len = 10, start = 0, end = 10) {
     return errorMessage('Range method requires a positive number for first argument.\nRange Signature:\t\tfunction range(length, start, end)\nAll arguments are optional.', 'A positive integer or 0', len);
   }
   let stop = end;
+  if (arguments.length === 3) { return buildTestArray(len, start, stop); }
   
   if (arguments.length === 2) {
     stop = start;
     start = 0;
   }
-  if (arguments.length === 3) { return buildTestArray(len, start, stop); }
 
   let arr = [];
   let val = start;

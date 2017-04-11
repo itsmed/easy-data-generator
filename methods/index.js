@@ -5,4 +5,5 @@ module.exports = {
   lorem: require('./lorem'),
   range: require('./range'),
   randInt: require('./randInt'),
+  randFloat: require('./randFloat'),
 }
